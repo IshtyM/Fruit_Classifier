@@ -1,0 +1,14 @@
+#versions: myenv, binderenv, myenvextras
+dependencies:
+  - python==3.8.10 #
+  - pip==21.0 #
+  - pip: 
+    - spacy==2.3.5 #==2.2.4
+    - voila==0.2.16 #, ==0.3.8
+    - language-tool-python==2.6.1 #
+    - fastai==2.2.7 #==2.5.2
+    - ipywidgets==7.5.0 #==7.6.3
+    - pydicom==2.1.2 #==2.2.2
+    - kornia==0.4.1 #==0.5.11
+    - scikit-image==0.16.2 #==0.18.3
+    - Pillow==7.0.0 #
